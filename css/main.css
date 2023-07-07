@@ -17,7 +17,7 @@
  *  10. home
  *  11. about
  *  12. services
- *  13. portfolio
+ *  13. team
  *  14. testimonials
  *  15. clients
  *  16. contact
@@ -799,6 +799,7 @@ button.large, .button.large {
 button.stroke, .button.stroke {
   background: transparent !important;
   border: 3px solid #313131;
+  border-radius: 7px;
   line-height: 4.8rem;
 }
 
@@ -1886,7 +1887,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * ------------------------------------------------------------------- */
 #services {
   background-color: #19191b;
-  background-image: url(../images/services-bg.jpg);
+  background-image: url(../images/happy1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -2000,53 +2001,53 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 
 
 /* ===================================================================
- *  13. portfolio - (_layout.scss)
+ *  13. team - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
-#portfolio {
+#team {
   background: #FFFFFF;
   min-height: 800px;
   position: relative;
   padding: 0;
 }
-#portfolio .intro-wrap {
+#team .intro-wrap {
   padding: 15rem 0 21rem;
   background: #111111;
 }
-#portfolio .section-intro h3 {
+#team .section-intro h3 {
   color: rgba(242, 242, 242, 0.5);
 }
-#portfolio .section-intro h1 {
+#team .section-intro h1 {
   color: #FFFFFF;
 }
-#portfolio .section-intro .lead {
+#team .section-intro .lead {
   color: rgba(242, 242, 242, 0.4);
 }
-#portfolio .portfolio-content {
+#team .team-content {
   margin-top: -22.2rem;
 }
-#portfolio .bricks-wrapper:before, 
-#portfolio .bricks-wrapper:after {
+/* #team .bricks-wrapper:before, 
+#team .bricks-wrapper:after {
   content: "";
   display: table;
 }
-#portfolio .bricks-wrapper:after {
+#team .bricks-wrapper:after {
   clear: both;
 }
-#portfolio .bricks-wrapper .brick {
+#team .bricks-wrapper .brick {
   float: left;
   width: 50%;
   padding: 0;
   margin: 0;
 }
-#portfolio .bricks-wrapper .brick:nth-child(2n+1) {
+#team .bricks-wrapper .brick:nth-child(2n+1) {
   clear: both;
-}
+} */
 
 /* ------------------------------------------------------------------- 
  * masonry entries - (_layout.css) 
  * ------------------------------------------------------------------- */
-.bricks-wrapper .item-wrap {
+/* .bricks-wrapper .item-wrap {
   position: relative;
   overflow: hidden;
 }
@@ -2185,12 +2186,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
   transform: translateX(0);
-}
+} */
 
 /* ------------------------------------------------------------------- 
  * Light Gallery Overrides - (_layout.css) 
  * ------------------------------------------------------------------- */
-.lg-sub-html {
+/* .lg-sub-html {
   padding: 12px 20% 15px;
 }
 .lg-sub-html a, .lg-sub-html a:visited {
@@ -2235,19 +2236,19 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 
 #lg-counter {
   font-family: "montserrat-regular", sans-serif;
-}
+} */
 
 /* ------------------------------------------------------------------- 
  * responsive:
- * portfolio
+ * team
  * ------------------------------------------------------------------- */
-@media only screen and (max-width: 768px) {
-  #portfolio .intro-wrap {
+/* @media only screen and (max-width: 768px) {
+  #team .intro-wrap {
     padding: 12rem 0 21rem;
   }
 }
 @media only screen and (max-width: 600px) {
-  #portfolio .bricks-wrapper .brick {
+  #team .bricks-wrapper .brick {
     float: none;
     width: 100%;
   }
@@ -2256,14 +2257,14 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     font-size: 2rem;
     line-height: 1.5;
   }
-}
+} */
 
 
 /* ===================================================================
  *  14. testimonials - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
-#testimonials {
+/* #testimonials {
   background: #FFFFFF;
   padding: 12rem 0 7.8rem;
   text-align: center;
@@ -2343,6 +2344,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 /* control nav */
+/*
 #testimonials .flex-control-nav {
   width: 100%;
   text-align: center;
@@ -2372,13 +2374,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #testimonials .flex-control-paging li a.flex-active {
   background-color: #000000;
-}
+} */
 
 /* ------------------------------------------------------------------- 
  * responsive:
  * testimonials
  * ------------------------------------------------------------------- */
-@media only screen and (max-width: 1024px) {
+/* @media only screen and (max-width: 1024px) {
   #testimonial-slider p {
     font-size: 2.8rem;
   }
@@ -2424,14 +2426,14 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   #testimonial-slider p {
     font-size: 2rem;
   }
-}
+} */
 
 
 /* ===================================================================
  *  15. clients - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
-#clients {
+/* #clients {
   background-color: #e9eaea;
   padding: 4.8rem 0 4.8rem;
 }
@@ -2499,7 +2501,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #clients .owl-carousel .owl-dots .owl-dot.active span,
 #clients .owl-carousel .owl-dots .owl-dot:hover span {
   background-color: #000000;
-}
+} */
 
 
 /* ===================================================================
@@ -2558,7 +2560,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 /* contact form */
-#contact form {
+/* #contact form {
   margin-top: 0;
   margin-bottom: 3rem;
 }
@@ -2603,11 +2605,11 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #contact form :-moz-placeholder {
   color: rgba(255, 255, 255, 0.3);
   /* Firefox 18- */
-}
+/*}
 #contact form ::-moz-placeholder {
   color: rgba(255, 255, 255, 0.3);
   /* Firefox 19+ */
-}
+/*}
 #contact form :-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.3);
 }
@@ -2674,10 +2676,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #message-warning i,
 #message-success i {
   margin-right: 10px;
-}
+}*/
 
 /* form loader */
-#submit-loader {
+/*#submit-loader {
   display: none;
   position: relative;
   left: 0;
@@ -2700,7 +2702,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 .oldie #submit-loader .text-loader {
   display: block;
-}
+} */
 
 /* --------------------------------------------------------------- 
  * loader animation - (_layout.scss)
